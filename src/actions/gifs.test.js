@@ -15,7 +15,7 @@ describe("Given gif actions", () => {
 
   beforeEach(() => {
     fetchGifStub = sinon.stub(gifService, "fetchGifs");
-    //stubbing fetchGifs from actions/gifs.js and not the entire func
+    //stubbing fetchGifs from actions/gifs.js and not the entire func (or the serice rather)
   });
 
   afterEach(() => {
